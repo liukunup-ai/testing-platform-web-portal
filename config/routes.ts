@@ -12,6 +12,10 @@
  */
 export default [
   {
+    path: '/',
+    component: './home'
+  },
+  {
     path: '/user',
     layout: false,
     routes: [
@@ -256,10 +260,6 @@ export default [
         component: './account/settings',
       },
     ],
-  },
-  {
-    path: '/',
-    redirect: '/dashboard/analysis',
   },
   {
     component: '404',
